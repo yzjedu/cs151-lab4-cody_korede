@@ -17,10 +17,10 @@
           additional_data = 0
    2. Prompt user to input if they have a coupon, input "yes" or "no", store under coupon
        1. if input is "yes"
-    total_cost = 49.99 + 15(additional_data)
-    if total_cost >= 75
+        total_cost = 49.99 + 15(additional_data)
+        2. if total_cost >= 75
         total_cost = total_cost - 20
-    otherwise
+        3. otherwise
         total_cost = total_cost
 
 5. Otherwise, if user inputs "blue"
